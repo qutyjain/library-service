@@ -1,7 +1,7 @@
 spring:
  application:
   name:
-   bookregisterservice
+   libraryservice
  profiles:
   active:
    prod

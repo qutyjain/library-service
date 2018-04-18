@@ -1,4 +1,4 @@
-package com.books.registrations.config;
+package com.library.branches.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
