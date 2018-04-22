@@ -13,8 +13,8 @@ public class Library {
 	@Column(name = "library_id", nullable = false)
 	private String libraryId;
 	
-	@Column(name = "library_name", nullable = false)
-	private String libraryName;
+	@Column(name = "library_contact", nullable = false)
+	private String libraryContact;
 	
 	@Column(name = "library_region", nullable = false)
 	private String region;
@@ -27,12 +27,12 @@ public class Library {
 		this.libraryId = libraryId;
 	}
 
-	public String getLibraryName() {
-		return libraryName;
+	public String getLibraryContact() {
+		return libraryContact;
 	}
 
-	public void setLibraryName(String libraryName) {
-		this.libraryName = libraryName;
+	public void setLibraryName(String libraryContact) {
+		this.libraryContact = libraryContact;
 	}
 
 	public String getRegion() {
