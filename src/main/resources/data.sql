@@ -1,0 +1,2 @@
+INSERT INTO `Library` (`library_id`,`library_contact`,`library_region`) VALUES ('acfghi','nick','North York');
+INSERT INTO `Library` (`library_id`,`library_contact`,`library_region`) VALUES ('aacfghi','george','Markham');
