@@ -1,12 +1,14 @@
 spring:
  application:
-  name: libraryservice
+  name:
+   libraryservice
  profiles:
-  active: prod
+  active:
+   prod
  cloud:
   config:
-  enabled: true
-  uri: http://ec2-35-183-85-8.ca-central-1.compute.amazonaws.com:8888
+   enabled: true
+   uri: http://ec2-35-183-85-8.ca-central-1.compute.amazonaws.com:8888
 eureka:
  instance:
   preferIpAddress: true
@@ -14,4 +16,4 @@ eureka:
   registerWithEureka: true
   fetchRegistry: true
   serviceUrl:
-   defaultZone: http://ec2-35-183-62-201.ca-central-1.compute.amazonaws.com:8761/eureka/ 
+   defaultZone: http://ec2-35-183-62-201.ca-central-1.compute.amazonaws.com:8761/eureka/    
